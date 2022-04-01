@@ -18,7 +18,8 @@ def estruturaRepeticao():
     for compra in lista_compras:
         print(compra)
     # O while irá executar o bloco indentado em loop até que a condição seja cumprida.
-    aux = 5
+    print('\nUso do While: ')
+    aux = 10
     while aux != 5:
         print('Este é um while.')
         aux -= 1

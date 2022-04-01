@@ -43,7 +43,6 @@ def typeTuple():
     tupla2 = 1, 2, 3, 4, 5, 6
     print(tupla2)
     print(type(tupla2))
-
     # Desempacotamento de Tupla
     # Gera ValueError se colocar um numero diferente de elementos para desempacotar.
     print(f'\nDesempacotamento de tuplas:')
@@ -51,7 +50,6 @@ def typeTuple():
     escola, curso = tupla3
     print(escola)
     print(curso)
-
     # Metódos de adição e remoção em tuplas não existem, dado o fato de tuplas serem imutáveis.
     # Soma*, procurar valor max* e min*, tamanho
     # Se os valores forem todos inteiros ou reais
@@ -61,7 +59,6 @@ def typeTuple():
     print(max(tupla4)) # máximo valor
     print(min(tupla4)) # minimo valor
     print(len(tupla4)) # tamanho lista
-
     # Concatenação de Tuplas
     print(f'Concatenação de tuplas:')
     tupla7 = 1, 2, 3
@@ -85,7 +82,6 @@ def typeDict():
     paises2 = dict(br='Brasil', eua='Estados Unidos', pt='Portugal')
     print(paises2)
     print(type(paises2))
-
     # Pegando itens de um dicionário
     print(f'\nPegando itens de um dicionário: ')
     print(f'Pegando país de chave br = ' + str(paises['br']))

@@ -1,13 +1,17 @@
 ''' # RECURSIVIDADE # '''
 
-''' CONTAGEM ICREMENTAL '''
-def recursiveIncremental(value):
-    if value == 100: # Caso o valor recebido seja 100, a recursão será parada.
+''' CONTAGEM DECREMENTAL '''
+def decremental():
+    value = int(input('Digite um valor que deseja decrementar: '))
+    recursiveDecremental(value)
+
+def recursiveDecremental(value):
+    if value == 0: # Caso o valor recebido seja 100, a recursão será parada.
         print('Terminou!')
     else:
         # Eventualmente, n chegará a 100 e a recursão será interrompida.
-        print('Valor atual = ' + value)
-        recursiveIncremental(value + 1)
+        print('Valor atual = ' + str(value))
+        recursiveDecremental(value - 1)
 
 ''' FIBONACCI '''
 def recursiveFibonacci(n):
