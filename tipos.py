@@ -11,7 +11,7 @@ def typeIntFloat():
 def typeString():
     name = 'Linguagens de Programação' # Palavra escrita entre aspas quer dizer String
     # Uso de Slice em Python (de tal indice até tal indice)
-    print(f'Slice da palavra {name} de 0:8 -> {name[0:5]}')
+    print(f'Slice da palavra {name} de 0:5 -> {name[0:5]}')
     # Pode ser utilizado para ler a String ao contrário também
     print(f'Slice da palavra {name} de 0::-1 -> {name[0::-1]}')
     
