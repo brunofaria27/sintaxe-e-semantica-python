@@ -1,3 +1,8 @@
+''' Membros do Grupo: '''
+# - Bruno Rodrigues Faria
+# - Guilherme Dantas Caldeira Fagundes
+# - Laura Iara Silva Santos Xavier
+
 # IMPORTS DE DIRETÓRIOS
 import paradigmas
 import estruturas
