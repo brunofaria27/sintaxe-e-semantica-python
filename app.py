@@ -4,6 +4,7 @@ import estruturas
 import recursividade
 import reference_couting
 import tipos
+import concorrencia
 
 # IMPORTS PARA O PROGRAMA
 import os
@@ -27,6 +28,7 @@ def menu():
     print('[3] - Recursividade')
     print('[4] - Tipos')
     print('[5] - Reference Couting')
+    print('[6] - Concorrencia')
     print('[0] - Sair')
 
 # Função utilizada para mostrar o menu de funções dos paradigmas
@@ -202,6 +204,12 @@ while aux != 0:
         os.system('clear') or None
         print('\n* EXEMPLO REFERENCE COUNTING *')
         reference_couting.referenceCouting()
+        clear()
+    elif aux == 6:
+        os.system('clear') or None
+        print('\n* EXEMPLO CONCORRENCIA *')
+        concorrencia.executarSemThread()
+        concorrencia.executar()
         clear()
     else: 
         aux = 0
